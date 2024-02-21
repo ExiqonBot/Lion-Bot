@@ -103,35 +103,43 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 ```bash
 
-apt update
+apt update -y
 
-apt upgrade
+apt upgrade -y
 
-pkg update && pkg upgrade
+pkg update -y
 
-pkg install bash
+pkg upgrade -y
 
-pkg install libwebp
+pkg install bash -y
+
+pkg install libwebp -y
 
 pkg install git -y
 
-pkg install nodejs -y 
+pkg install nodejs -y
 
-pkg install ffmpeg -y 
+pkg install ffmpeg -y
 
-pkg install wget
+pkg install wget -y
 
-pkg install yarn
+pkg install yarn -y
 
 pkg install imagemagick -y
 
-git clone https://github.com/ExiqonBot/Lion-Bot
+git clone https://github.com/ExiqonBot/Lion-Bot.git
 
 cd Lion-Bot
 
 rm -rf session
 
-yarn install
+yarn install -y
+
+npm install lodash -y
+
+npm install mongoose -y
+
+npm install chalk -y
 
 npm start
 
