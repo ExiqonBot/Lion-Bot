@@ -141,7 +141,7 @@ npm install mongoose -y
 
 npm install chalk -y
 
-npm install punycode
+npm install punycode --save
 
 npm start
 
