@@ -2,8 +2,8 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.Owner = ['49491741711168', '491773379918', '436504919106000'];
-global.ownernumber = ['49491741711168', '491773379918', '436504919106000'];
+global.Owner = ['436502192839706', '491773379918', '49491741711168'];
+global.ownernumber = ['436502192839706', '491773379918', '49491741711168'];
 global.ownername = "ღƐ×ͥΐզͣօͫήღ"//owner name
 global.ytname = "YT: Soon"
 global.socialm = "GitHub: ExiqonBot"
