@@ -27,7 +27,7 @@ const _ = require('lodash')
 const PORT = process.env.PORT || 3000
 const { LowSync, JSONFileSync } = require('./lib/lowdb')
 const FileSync = require('./lib/lowdb/adapters/JSONFileSync')
-global.modnumbers = ['49491741711168', '491773379918', '436504919106000']; 
+global.modnumbers = ['49491741711168', '491773379918', '436502192839706']; 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'));
 const isnsfw = JSON.parse(fs.readFileSync('./Gallery/database/nsfw.json'));
@@ -1856,6 +1856,7 @@ ${readmore}
 │⊳ 🏮 ${prefix}emojimix
 │⊳ 🏮 ${prefix}circlevideo
 │⊳ 🏮 ${prefix}google
+│⊳ 🏮 ${prefix}gpt
 └──────────⊰
 🍂 To enable NSFW (Admin only!), enter  *${prefix}nsfw* 
 
@@ -2383,7 +2384,7 @@ https://chat.whatsapp.com/${response}
         case 'test': case 'p': case 'ping': 
         let timestampe = speed()
         let latensie = speed() - timestampe
-         reply(`🧧Test erfolgreich, Bot ist aktiv\n\n📍 *ping* ${latensie.toFixed(4)} milisekunden\n\n Tippe ${prefix}menu um meine Befehle zu sehen`)
+         reply(`🧧Test erfolgreich, Bot ist aktiv!\n\n📍 *Ping* ${latensie.toFixed(4)} milisekunden\n\n Tippe ${prefix}menu um meine Befehle zu sehen`)
         break   
     
         
@@ -2399,8 +2400,8 @@ https://chat.whatsapp.com/${response}
 
 *Teamleitung* :
 
--👀 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Leitung)
--👀 *GoldtraderJD* (Stv.Leitung)
+-👀 *GoldtraderJD* (Leitung)
+-👀 *(Name)* (Stv.Leitung)
 
 *Community-Manager* : 
 
@@ -2421,7 +2422,7 @@ https://chat.whatsapp.com/${response}
 
 *Support-Team* :
 
--💎 *(Name)* (Leitung)
+-💎 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Leitung)
 -👷🏻‍♂️ *(Name)* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
@@ -2430,9 +2431,9 @@ https://chat.whatsapp.com/${response}
 
 -💎 *Ɛ×ͥΐզͣօͫή* (Leitung)
 -💻 *Cthulhu* (Hoster)
--💻 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Hoster)
+-💻 *𝕯𝖆𝖗𝖙𝖍 𝕾𝖎𝖉𝖎𝖔𝖚𝖘* (Hoster)
 -💻 *GoldtraderJD* (Hoster)
--💻 *(Name)* (Hoster)
+-💻 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Hoster)
 
 \n📛 *Wir bemühen uns, euch zeitnah zu antworten, und bitten höflich darum, kein Spam zu versenden.* \n\n Um eine Supportanfrage zu stellen,benutzt bitte *${prefix}support* gefolgt von eurem Anliegen.\n\n*✨️Danke für eure Unterstützung,euer Lion-Bot Team.* `)
         break   
