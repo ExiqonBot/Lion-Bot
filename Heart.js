@@ -2417,12 +2417,12 @@ https://chat.whatsapp.com/${response}
 
 -💎 *Cthulhu* (Leitung)
 -👮🏻‍♂️ *Toruto* (Mod)
--👮🏻‍♂️ *Ian.H*  (Mod)
+-👮🏻‍♂️ *(Name)* (Mod)
 
 
 *Support-Team* :
 
--💎 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Leitung)
+-💎 *(Name)* (Leitung)
 -👷🏻‍♂️ *(Name)* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
@@ -2433,7 +2433,7 @@ https://chat.whatsapp.com/${response}
 -💻 *Cthulhu* (Hoster)
 -💻 *𝕯𝖆𝖗𝖙𝖍 𝕾𝖎𝖉𝖎𝖔𝖚𝖘* (Hoster)
 -💻 *GoldtraderJD* (Hoster)
--💻 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Hoster)
+-💻 *(Name)* (Hoster)
 
 \n📛 *Wir bemühen uns, euch zeitnah zu antworten, und bitten höflich darum, kein Spam zu versenden.* \n\n Um eine Supportanfrage zu stellen,benutzt bitte *${prefix}support* gefolgt von eurem Anliegen.\n\n*✨️Danke für eure Unterstützung,euer Lion-Bot Team.* `)
         break   
