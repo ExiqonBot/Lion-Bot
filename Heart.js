@@ -1465,7 +1465,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 https://chat.whatsapp.com/KSM8yCpBHGUGkb2f3zfGz7`
 
         await Maria.sendMessage(m.chat,{ text: `${tex}` },);
- let teks = `── 「 Hallo Team 」 ──\n\n*Eine Anfrage von 📝 *: ${m.sender} 🔢\n*Nachricht*: ${text} \n`
+ let teks = `── 「 Hallo Team 」 ──\n\n*Eine Anfrage von* 📝 : ${m.sender} 🔢\n*Nachricht*: ${text} \n`
         await Maria.sendMessage("120363198299068646@g.us",{ text: teks, gifPlayback: true }, { quoted: m });
         break
 
