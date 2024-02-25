@@ -148,7 +148,7 @@ let index = 0;
 
 function printRainbowMessage() {
   const color = rainbowColors[index];
-  console.log(chalk.keyword(color)('\n\n⏳️waiting for messages'));
+  console.log(chalk.keyword(color)('\n\n⏳️Warten auf Nachrichten'));
   index = (index + 1) % rainbowColors.length;
   setTimeout(printRainbowMessage, 60000);  // Adjust the timeout for desired speed
 }
@@ -290,7 +290,7 @@ Maria.sendMessage(anu.id,
 	                const Mariadate = moment.tz('Europe/Berlin').format('DD/MM/YYYY')
                 	let MariaName = num
                     const Mariamembers = metadata.participants.length
-  Mariabody = `┌──⊰ *🫶🏼Aufwiedersehen🫶🏼*⊰
+  Mariabody = `┌──⊰ *🫶🏼Auf wiedersehen🫶🏼*⊰
 │⊳  👤 From: ${metadata.subject}
 │⊳  📃 Grund: Hat sich vom Staub gemacht💨
 │⊳  📔 Name: @${MariaName.split("@")[0]}
