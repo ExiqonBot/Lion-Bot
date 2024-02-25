@@ -1053,7 +1053,7 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/AYUSH-PANDEY023/Maria-MD");
+let repoInfo = await axios.get("https://api.github.com/repos/ExiqonBot/Lion-Bot");
         let repo = repoInfo.data;
         console.log(repo);
 
@@ -1314,7 +1314,7 @@ break
             }
             break
             case 'fliptext': {
-                if (args.length < 1) return reply(`Example:\n${prefix}fliptext Ayushy`)
+                if (args.length < 1) return reply(`Example:\n${prefix}fliptext 	Lion`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
                 reply(`\`\`\`「 FLIP TEXT 」\`\`\`\n*•> Normal :*\n${quere}\n*•> Flip :*\n${flipe}`)
@@ -1390,7 +1390,7 @@ break
 
 case 'chatgpt': case 'gpt':{
 Maria.sendMessage(from, { react: { text: "🤖", key: m.key }}) 
-              if (!q) return reply(`Please provide a text query. Example: ${prefix + command} Hello, ChatGPT!`);
+              if (!q) return reply(`Please provide a text query. Beispiel: ${prefix + command} Hallo, ChatGPT!`);
             
               const apiUrl1 = `https://vihangayt.me/tools/chatgpt?q=${encodeURIComponent(q)}`;
               const apiUrl2 = `https://gurugpt.cyclic.app/gpt4?prompt=${encodeURIComponent(q)}&model=llama`;
@@ -1465,15 +1465,15 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 https://chat.whatsapp.com/KSM8yCpBHGUGkb2f3zfGz7`
 
         await Maria.sendMessage(m.chat,{ text: `${tex}` },);
- let teks = `── 「 Antwort 📝」 ──\n\n*Angefragt*: ${m.sender} 🔢\n*Message*: ${text} \n*Antwort* :`
-        await Maria.sendMessage("120363225734488240@g.us",{ text: teks, gifPlayback: true }, { quoted: m });
+ let teks = `── 「 Hallo Team 」 ──\n\n*Eine Anfrage von 📝 *: ${m.sender} 🔢\n*Nachricht*: ${text} \n`
+        await Maria.sendMessage("120363198299068646@g.us",{ text: teks, gifPlayback: true }, { quoted: m });
         break
 
       case "info":
             Maria.sendMessage(from, { react: { text: "ℹ️", key: m.key }}) 
         let ifx = `🌟『ღĹíőͥńͣ BͫØ₸ღ』🌟
 *🌟Beschreibung:* Ein WhatsApp-Bot mit einer umfangreichen Auswahl an Funktionen und cleveren Extras.
-*👤Creator:*  ${prefix}team
+*👤Creator:* ${prefix}team
 *🕸Version:* 1.1.0
 *🎀supportgc:* https://chat.whatsapp.com/KSM8yCpBHGUGkb2f3zfGz7
 *🚦Laufzeit:* ${runtime(process.uptime())}\n
@@ -1819,7 +1819,6 @@ ${readmore}
 │⊳ 📥 ${prefix}igvideo
 └──────────⊰
 ┌──⊰ _*🔖support🔖*_
-│⊳ 📥 ${prefix}tagteam
 │⊳ 📥 ${prefix}support
 └──────────⊰
 ┌──⊰ _*🎐SnapBlend🎐*_
@@ -1955,7 +1954,7 @@ case 'public': {
                  if (!isAdmins && !isGroupOwner && !isCreator) return reply(mess.admin)
                 if (!isBotAdmins) return reply(mess.botAdmin)
 if (args[0] === "on") {
-if (AntiNsfw) return reply('Already activated✅️')
+if (AntiNsfw) return reply('Bereits aktiviert✅️')
 isnsfw.push(from)
 fs.writeFileSync('./Gallery/database/nsfw.json', JSON.stringify(isnsfw))
 reply('Successfully activating nsfw mode in this group ✔️')
@@ -1967,11 +1966,11 @@ mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
 Maria.sendMessage(from, {text: `\`\`\``, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
-if (!AntiNsfw) return reply('Already deactivated')
+if (!AntiNsfw) return reply('Bereits deaktiviert!')
 let off = isnsfw.indexOf(from)
 isnsfw.splice(off, 1)
 fs.writeFileSync('./Gallery/database/nsfw.json', JSON.stringify(isnsfw))
-reply('Successfully deactivating nsfw mode in this group ✔️')
+reply('NSFW wurde Erfolgreich Deaktiviert! ✔️')
 } else {
   await reply(`*Kindly input the choice as follows:*
 *Example: ${prefix + command} on*
@@ -2401,7 +2400,7 @@ https://chat.whatsapp.com/${response}
 *Teamleitung* :
 
 -👀 *GoldtraderJD* (Leitung)
--👀 *(Name)* (Stv.Leitung)
+-👀 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Stv.Leitung)
 
 *Community-Manager* : 
 
@@ -2433,7 +2432,7 @@ https://chat.whatsapp.com/${response}
 -💻 *Cthulhu* (Hoster)
 -💻 *𝕯𝖆𝖗𝖙𝖍 𝕾𝖎𝖉𝖎𝖔𝖚𝖘* (Hoster)
 -💻 *GoldtraderJD* (Hoster)
--💻 *(Name)* (Hoster)
+-💻 *⸸ℑꈤᥴꪊ𝕭ꪊᦓ⸸* (Hoster)
 
 \n📛 *Wir bemühen uns, euch zeitnah zu antworten, und bitten höflich darum, kein Spam zu versenden.* \n\n Um eine Supportanfrage zu stellen,benutzt bitte *${prefix}support* gefolgt von eurem Anliegen.\n\n*✨️Danke für eure Unterstützung,euer Lion-Bot Team.* `)
         break   
