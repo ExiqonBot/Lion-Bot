@@ -1475,7 +1475,7 @@ https://chat.whatsapp.com/KSM8yCpBHGUGkb2f3zfGz7`
 *🌟Beschreibung:* Ein WhatsApp-Bot mit einer umfangreichen Auswahl an Funktionen und cleveren Extras.
 *👤Creator:* ${prefix}team
 *🕸Version:* 1.1.0
-*🎀supportgc:* https://chat.whatsapp.com/KSM8yCpBHGUGkb2f3zfGz7
+*🎀supportgrp:* https://chat.whatsapp.com/KSM8yCpBHGUGkb2f3zfGz7
 *🚦Laufzeit:* ${runtime(process.uptime())}\n
 *Powered by ღĹíͥőͣńͫღ Botz Inc.*`
 Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch3.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
@@ -1495,7 +1495,7 @@ Maria.sendMessage(from, { react: { text: "🔎", key: m.key }})
 if (!q) return reply(`Example : ${prefix + command} 𝘈𝘺𝘶𝘴𝘩 𝘱𝘢𝘯𝘥𝘦𝘺`)
 let google = require('google-it')
 google({'query': text}).then(res => {
-let teks = `「🏮 *Google Search Engine*🏮」 \n\n
+let teks = `「🏮 *Google Suchmaschine*🏮」 \n\n
 `
 for (let g of res) {
 teks += `🧧 *Titel* : ${g.title}\n`
@@ -1764,7 +1764,7 @@ case 'truth':
 │⋊ 𝕓𝕠𝕥 ℕ𝕒𝕞𝕖: *ღĹíőͥńͣ BͫØ₸ღ*
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  [ *${prefix}* ]
 │⋊ 𝕆𝕨𝕟𝕖𝕣: ${prefix}owner
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕙𝕒𝕥 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/C3i7IjruiUHEY2FOBd0xfb
+│⋊ 𝕆𝕗𝕗𝕚𝕫𝕚𝕖𝕝𝕝𝕖 ℂ𝕠𝕞𝕞𝕦𝕟𝕚𝕥𝕪: https://chat.whatsapp.com/EOvDwhXVJH1Ln8wAlg5tn9
 ╰────────────┈平和
 Verfügbare Befehle.🔖
 ${readmore}
@@ -1772,7 +1772,6 @@ ${readmore}
 │⊳ ⚙️ ${prefix}team
 │⊳ ⚙️ ${prefix}info
 │⊳ ⚙️ ${prefix}rules
-│⊳ ⚙️ ${prefix}help
 │⊳ ⚙️ ${prefix}runtime
 │⊳ ⚙️ ${prefix}ping
 │⊳ ⚙️ ${prefix}owner
@@ -1857,9 +1856,9 @@ ${readmore}
 │⊳ 🏮 ${prefix}google
 │⊳ 🏮 ${prefix}gpt
 └──────────⊰
-🍂 To enable NSFW (Admin only!), enter  *${prefix}nsfw* 
+🍂 Um NSFW zu aktivieren (nur für Admins!), gebe  *${prefix}nsfw* ein.
 
-🍂 Obtain the full list of NSFW commands by typing  *${prefix}nsfwmenu*`
+🍂 Um das gesamte NSFW-menu anzuzeigen, gebe bitte  *${prefix}nsfwmenu* ein.`
 
   if (randomImage) {
     Maria.sendMessage(from, { image: { url: randomImage }, caption: txt }, { quoted: m });
@@ -1940,9 +1939,6 @@ case 'public': {
 │⊳ 💦  /cum
 │⊳ 💦  /pussy
 │⊳ 💦  /ass
-│⊳ 💦  /ʙʀᴀ
-│⊳ 💦  /ꜱᴋɪʀᴛ
-│⊳ 💦  /foot
 │⊳ 💦  /ᴛᴀᴛᴛᴏᴏ
 └──────────⊰
 `
@@ -1957,7 +1953,7 @@ if (args[0] === "on") {
 if (AntiNsfw) return reply('Bereits aktiviert✅️')
 isnsfw.push(from)
 fs.writeFileSync('./Gallery/database/nsfw.json', JSON.stringify(isnsfw))
-reply('Successfully activating nsfw mode in this group ✔️')
+reply('NSFW wurde erfolgreich aktiviert ✅️')
 var groupe = await Maria.groupMetadata(from)
 var members = groupe['participants']
 var mems = []
@@ -1970,12 +1966,12 @@ if (!AntiNsfw) return reply('Bereits deaktiviert!')
 let off = isnsfw.indexOf(from)
 isnsfw.splice(off, 1)
 fs.writeFileSync('./Gallery/database/nsfw.json', JSON.stringify(isnsfw))
-reply('NSFW wurde Erfolgreich Deaktiviert! ✔️')
+reply('NSFW wurde erfolgreich deaktiviert ❌')
 } else {
-  await reply(`*Kindly input the choice as follows:*
-*Example: ${prefix + command} on*
-*Example: ${prefix + command} off*
-🟢 *Use 'on' to enable and 'off' to disable.* 🔴`)
+  await reply(`*Bitte wähle wie folgt:*
+*Beispiel: ${prefix + command} on*
+*Beispiel: ${prefix + command} off*
+🟢 *Verwenden "on" zum Aktivieren und "off" zum Deaktivieren.* 🔴`)
   }
   }
   break  
