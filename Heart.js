@@ -2422,7 +2422,7 @@ https://chat.whatsapp.com/${response}
 *Support-Team* :
 
 -💎 *(Name)* (Leitung)
--👷🏻‍♂️ *(Name)* (Supporter)
+-👷🏻‍♂️ *𝕾𝖆𝖒𝖚𝖗𝖆𝖎ᴳᵒᵈ* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
 
