@@ -2400,7 +2400,7 @@ https://chat.whatsapp.com/${response}
 
 *Community-Manager* : 
 
--🤵 *(Name)*
+-🤵 *𝕯𝖆𝖗𝖙𝖍 𝕾𝖎𝖉𝖎𝖔𝖚𝖘*
 
 *Tech-Team* :
 
@@ -2417,7 +2417,7 @@ https://chat.whatsapp.com/${response}
 
 *Support-Team* :
 
--💎 *(Name)* (Leitung)
+-💎 *𝐓𝐚𝐤𝐲𝐦𝐚* (Leitung)
 -👷🏻‍♂️ *𝕾𝖆𝖒𝖚𝖗𝖆𝖎ᴳᵒᵈ* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
 -👷🏻‍♂️ *(Name)* (Supporter)
